@@ -1,11 +1,19 @@
 import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+import Header from "./Components/Header.js";
+import UsingFunction from "./Components/UsingFunction";
+import ArrowFunction from "./Components/ArrowFunction";
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <h1>Welcome to react practise code session</h1>
-    </div>
+
+      <Header />
+      <UsingFunction />
+      <ArrowFunction />
+    </React.Fragment>
   );
 }
 
