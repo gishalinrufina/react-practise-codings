@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./Components/Header.js";
 import UsingFunction from "./Components/UsingFunction";
 import ArrowFunction from "./Components/ArrowFunction";
+import UsingClass from "./Components/UsingClass";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <UsingFunction />
       <ArrowFunction />
+      <UsingClass />
     </React.Fragment>
   );
 }
