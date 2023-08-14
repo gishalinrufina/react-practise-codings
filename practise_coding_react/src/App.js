@@ -6,6 +6,8 @@ import UsingFunction from "./Components/UsingFunction";
 import ArrowFunction from "./Components/ArrowFunction";
 import UsingClass from "./Components/UsingClass";
 import UsingUseState from "./Components/UsingUseState";
+import ControlledComponent from "./Components/ControlledComponent";
+import UnControlledComponent from "./Components/UnControlledComponent";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <ArrowFunction />
       <UsingClass />
       <UsingUseState />
+      <ControlledComponent />
+      <UnControlledComponent />
     </React.Fragment>
   );
 }
